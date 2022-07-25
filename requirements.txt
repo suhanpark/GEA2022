@@ -79,6 +79,7 @@ pyasn1-modules==0.2.8
 pycares==4.1.2
 pycparser==2.21
 pydantic==1.9.1
+pygame==2.1.2
 PyJWT==2.4.0
 pyparsing==3.0.7
 pyrsistent==0.18.1
