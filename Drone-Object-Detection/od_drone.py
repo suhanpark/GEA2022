@@ -12,12 +12,10 @@ drone.move_up(80)
 
 
 while True:
-    img = run(drone, net, thres, nmsThres, classNames)
-
-    drone.send_rc_control(0, 0, 0, 0)
-
-    cv2.imshow("Image", img)
-    key = cv2.waitKey(5000)
-    if key & 0xFF == ord('q'):
-      break
+  image = run(drone, net, thres, nmsThres, classNames)
+  drone_stream(image, drone)
+  
+  key = cv2.waitKey(5000)
+  if key & 0xFF == ord('q'):
+    break
 

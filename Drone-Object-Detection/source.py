@@ -42,4 +42,7 @@ def run(drone, net, thres, nmsThres, classNames):
         return img
     except:
         pass
-    
+
+def drone_stream(img, drone):
+    drone.send_rc_control(0, 0, 0, 0)
+    cv2.imshow("Image", img)
