@@ -7,12 +7,12 @@ def configure():
     nmsThres = 0.2
 
     classNames = []
-    classFile = 'coco.names'
+    classFile = 'Drone-Object-Detection/coco.names'
     with open(classFile, 'rt') as f:
         classNames = f.read().split('\n')
     print(classNames)
-    configPath = 'ssd_mobilenet_v3_large_coco_2020_01_14.pbtxt'
-    weightsPath = "frozen_inference_graph.pb"
+    configPath = 'Drone-Object-Detection/ssd_mobilenet_v3_large_coco_2020_01_14.pbtxt'
+    weightsPath = "Drone-Object-Detection/frozen_inference_graph.pb"
     
     return thres, nmsThres, configPath, weightsPath, classNames
 
