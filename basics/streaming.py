@@ -2,10 +2,6 @@ from capture import *
 
 drone = config()
 
-drone.takeoff()
-drone.move_up(80)
-
-
 while True:
    stream(drone)
    
