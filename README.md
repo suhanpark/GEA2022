@@ -2,8 +2,10 @@
 
 <h3 align='center'>This is the repository for Computer Science and Drone class under Girls in Engineering Academy 2022 hosted by Engineering Society of Detroit</h3>
 
-<div align='center'>all rights reserved to Suhan Park</div>
-<div align='center'>licensed</div>
+<div align='center'></div><div align="center">
+  <a href="https://opensource.org/licenses/MIT"><img src="https://img.shields.io/badge/License-MIT-yellow.svg" alt="MIT"></a>
+  <a href="https://github.com/suhanpark/GEA2022"><img src="https://img.shields.io/badge/packages-repository-b956e8.svg?style=flat-square" alt="Repository"></a>
+</div>
 
 
 </br>
