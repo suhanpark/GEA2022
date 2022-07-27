@@ -9,10 +9,21 @@
 
 
 </br>
-<details open>
+<details>
 <summary>Explanation</summary>
   
   * This project is built using `djitellopy` and DJI Tello Drone.
   * `basics` folder contains topics in basic computer vision and keyboard control mainly using `cv2` and `pygame`.
   * `drone_od` folder contains topics in object detection using DNN computer vision neural network.
+</details>
+<details>
+<summary>Requirements</summary>
+    
+How to install all the requirements:
+
+    $ pip install -r requirements.txt
+    
+**`move.py`, `stream.py`, `spy.py`, and `final.py` are empty in order for students to code**
+  
+**The answer code files are `movetest.py`, `streaming.py`, `dronecam.py`, and `od_drone.py`**
 </details>
