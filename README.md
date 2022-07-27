@@ -1,6 +1,6 @@
 <h1 align='center'>Project Summary</h1>
 
-<h3 align='center'>This is the repository for Computer Science and Drone class under Girls in Engineering Academy 2022 hosted by Engineering Society of Detroit</h3>
+<h3 align='center'>This repository is developed by Suhan Park for Computer Science and Drone curriculum under Girls in Engineering Academy 2022 hosted by Engineering Society of Detroit</h3>
 
 <div align='center'></div><div align="center">
   <a href="https://opensource.org/licenses/MIT"><img src="https://img.shields.io/badge/License-MIT-yellow.svg" alt="MIT"></a>
