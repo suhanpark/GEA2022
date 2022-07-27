@@ -1,6 +1,10 @@
-<h1>Project Summary</h1>
+<h1 align='center'>Project Summary</h1>
 
-<h3>This is the repository for Computer Science and Drone class under Girls in Engineering Academy 2022 by Engineering Society of Detroit</h3>
+<h3 align='center'>This is the repository for Computer Science and Drone class under Girls in Engineering Academy 2022 hosted by Engineering Society of Detroit</h3>
+
+<div align='center'>all rights reserved to Suhan Park</div>
+<div align='center'>licensed</div>
+
 
 </br>
 <details open>
