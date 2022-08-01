@@ -14,7 +14,8 @@
   
   * This project is built using `djitellopy` and DJI Tello Drone.
   * `basics` folder contains topics in basic computer vision and keyboard control mainly using `cv2` and `pygame`.
-  * `drone_od` folder contains topics in object detection using DNN computer vision neural network.
+  * `drone_od` folder contains topics in object detection using DNN computer vision SSD-Mobilenet neural network.
+  * `facetracking` folder contains topics in object detection using CV2 Cascade Classifier.
 </details>
 <details>
 <summary>Requirements</summary>
