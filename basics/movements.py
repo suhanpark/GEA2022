@@ -1,4 +1,4 @@
-import basics.keymodule as km
+import keymodule as km
 from time import sleep
 from djitellopy import tello
 
