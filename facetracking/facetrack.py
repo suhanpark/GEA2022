@@ -9,10 +9,12 @@ while True:
  
     if startCounter == 0:
         myDrone.takeoff()
+        myDrone.move_down(20)
         startCounter = 1
+        
+    show(myDrone, w, h, pid, pError)
 
-tracker.py    show(myDrone, w, h, pid, pError)
-
-    if cv2.waitKey(1) and 0xFF == ord('q'):
+    key = cv2.waitKey(10000)
+    if key & 0xFF == ord('q'):
         myDrone.land()
         break

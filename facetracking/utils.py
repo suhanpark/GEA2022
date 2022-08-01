@@ -4,7 +4,7 @@ import numpy as np
  
  
 def initializeTello():
-    myDrone = tello()
+    myDrone = tello.Tello()
     myDrone.connect()
     myDrone.for_back_velocity = 0
     myDrone. left_right_velocity = 0
@@ -30,9 +30,9 @@ def telloGetFrame(myDrone, w= 360,h=240):
     return img
  
 def findFace(img):
-    faceCascade = cv2.CascadeClassifier('haarcascade_frontalface_default.xml')
+    faceCascade = cv2.CascadeClassifier(cv2.data.haarcascades + 'haarcascade_frontalface_default.xml')
     imgGray = cv2.cvtColor(img,cv2.COLOR_BGR2GRAY)
-    faces = faceCascade.detectMultiScale(imgGray,1.1,6  )
+    faces = faceCascade.detectMultiScale(imgGray,1.1,6)
  
     myFaceListC = []
     myFaceListArea = []
