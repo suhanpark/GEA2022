@@ -53,15 +53,12 @@ def cornerRect(img, bbox, l=30, t=5, rt=1,
 def run(drone, net, thres, nmsThres, classNames):
     img = drone.get_frame_read().frame
     classIds, confs, bbox = net.detect(img, confThreshold=thres, nmsThreshold=nmsThres)
-    try:
-        for classId, conf, box in zip(classIds.flatten(), confs.flatten(), bbox):
-            cornerRect(img, box)
-            cv2.putText(img, f'{classNames[classId - 1].upper()} {round(conf * 100, 2)}',
-                        (box[0] + 10, box[1] + 30), cv2.FONT_HERSHEY_COMPLEX_SMALL,
-                        1, (0, 255, 0), 2)
-        return img
-    except:
-        pass
+    for classId, conf, box in zip(classIds, confs, bbox):
+        cornerRect(img, box)
+        cv2.putText(img, f'{classNames[classId - 1].upper()} {round(conf * 100, 2)}',
+                    (box[0] + 10, box[1] + 30), cv2.FONT_HERSHEY_COMPLEX_SMALL,
+                    1, (0, 255, 0), 2)
+    return img
 
 def drone_stream(img, drone):
     drone.send_rc_control(0, 0, 0, 0)

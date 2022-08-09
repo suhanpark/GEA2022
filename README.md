@@ -23,8 +23,6 @@
 How to install all the requirements:
 
     $ pip install -r requirements.txt
-    
-**`move.py`, `stream.py`, `spy.py`, and `final.py` are empty in order for students to code**
-  
+      
 **The answer code files are `movetest.py`, `streaming.py`, `dronecam.py`, and `od_drone.py`**
 </details>
